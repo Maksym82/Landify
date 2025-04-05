@@ -7,13 +7,75 @@
     <!--Favicon-->
     <link rel="shortcut icon" href="./images/favicon.ico" />
     <!--Style-->
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate animi
-      qui accusantium pariatur. Voluptas fuga vitae consectetur, impedit iure
-      reiciendis.
-    </p>
+    <!--Header-->
+    <header class="header">
+      <div class="header__container">
+        <a class="logo__link" href="./index.html">
+          <img src="./images/header/logo.svg" alt="logo Landify" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="">Features</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Careers</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="">Help</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__store">
+          <a href="">
+            <img
+              src="./images/header/google-store.svg"
+              alt="icon google-store"
+            />
+          </a>
+          <a href="">
+            <img src="./images/header/apple-store.svg" alt="icon apple-store" />
+          </a>
+        </div>
+        <button class="burger__menu-open js-open-menu" type="button">
+          <img 
+            width="44"
+            src="./images/header/burger__icon-open.svg"
+            alt="icon open menu"
+          />
+        </button>
+      </div>
+
+      <!--Mobile menu-->
+      <div class="mobile-menu is-hidden js-menu-container">
+        <div class="mobile-menu__container">
+          <button class="mobile-menu__close js-close-menu" type="button">
+            <img class="icon-burger-close" src="./images/header/icon-burger-close.svg" alt="icon burger close" />
+          </button>
+          <nav class="mobile">
+            <ul class="mobile__list">
+              <li class="mobile__item">
+                <a class="mobile__link mobile-header-link" href="">Features</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link mobile-header-link" href="">Pricing</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link mobile-header-link" href="">Careers</a>
+              </li>
+              <li class="mobile__item">
+                <a class="mobile__link mobile-header-link" href="">Help</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
