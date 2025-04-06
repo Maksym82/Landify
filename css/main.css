@@ -328,9 +328,31 @@ input {
     background-size: 768px 1100px;
   }
 }
+@media (min-width: 1440px) {
+  .hero {
+    max-width: 1440px;
+    padding-top: 152px;
+    background-image: url("../../images/hero/hero-desktop-bg.png");
+    background-size: 1440px 866px;
+  }
+}
 
+@media (min-width: 1440px) {
+  .hero__main-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 164px;
+  }
+}
 .hero__text-content {
   margin-bottom: 80px;
+}
+@media (min-width: 1440px) {
+  .hero__text-content {
+    margin-bottom: 0;
+    padding-top: 96px;
+  }
 }
 
 .hero__title {
@@ -349,6 +371,12 @@ input {
 @media (min-width: 768px) {
   .hero__title {
     font-size: 48px;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__title {
+    font-size: 60px;
+    line-height: 1.2;
   }
 }
 
@@ -427,5 +455,10 @@ input {
 @media (min-width: 375px) {
   .hero__image {
     width: 320px;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__image {
+    margin-right: 84px;
   }
 }/*# sourceMappingURL=main.css.map */
