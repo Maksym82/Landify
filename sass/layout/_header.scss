@@ -4,84 +4,84 @@
   left: 0;
   width: 100%;
   z-index: 50;
-}
 
-.header__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 72px;
-}
-
-.nav {
-  display: none;
-
-  @media (min-width: 1440px) {
-    display: block;
-    margin-left: 40px;
-  }
-}
-
-.nav__list {
-  color: $neutral-900;
-
-  @media (min-width: 1440px) {
+  &__container {
     display: flex;
-    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
   }
-}
 
-.nav__link {
-  position: relative;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.42857;
-  transition: color 0.3s linear;
-}
+  .nav {
+    display: none;
 
-.nav__link:hover,
-.nav__link:focus {
-  color: $primary-600;
-}
+    @media (min-width: 1440px) {
+      display: block;
+      margin-left: 40px;
+    }
 
-.nav__link::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  display: block;
-  margin-top: 3px;
-  right: 0;
-  background: $primary-600;
-  transition: width 0.3s ease;
-  -webkit-transition: width 0.6s ease;
-}
+    &__list {
+      color: $neutral-900;
 
-.nav__link:hover::after,
-.nav__link:focus::after {
-  width: 100%;
-  left: 0;
-}
+      @media (min-width: 1440px) {
+        display: flex;
+        gap: 16px;
+      }
+    }
 
-.header__store {
-  display: none;
+    &__link {
+      position: relative;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.42857;
+      transition: color 0.3s linear;
+    }
+
+    &__link:hover,
+    &__link:focus {
+      color: $primary-600;
+    }
+
+    &__link::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      display: block;
+      margin-top: 3px;
+      right: 0;
+      background: $primary-600;
+      transition: width 0.3s ease;
+      -webkit-transition: width 0.6s ease;
+    }
+
+    &__link:hover::after,
+    &__link:focus::after {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &__store {
+    display: none;
+  
+    @media (min-width: 768px) {
+      display: flex;
+      gap: 12px;
+      margin-left: auto;
+    }
+  }
 
   @media (min-width: 768px) {
-    display: flex;
-    gap: 12px;
-    margin-left: auto;
+    .burger__menu-open {
+      margin-left: 16px;
+    }
   }
-}
-
-@media (min-width: 768px) {
-  .burger__menu-open {
-    margin-left: 16px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .burger__menu-open {
-    display: none;
+  
+  @media (min-width: 1440px) {
+    .burger__menu-open {
+      display: none;
+    }
   }
 }
 
