@@ -3,7 +3,7 @@
   padding-top: 120px;
   padding-bottom: 80px;
   margin: 0 auto;
-  background-image: url("../../images/hero/hero-mobile-bg.png");
+  background-image: url("../images/hero/hero-mobile-bg.png");
   background-repeat: no-repeat;
   background-size: 320px 1100px;
 
@@ -15,7 +15,7 @@
   @media (min-width: 768px) {
     max-width: 768px;
     padding-top: 160px;
-    background-image: url("../../images/hero/hero-tablet-bg.png");
+    background-image: url("../images/hero/hero-tablet-bg.png");
     background-size: 768px 1100px;
   }
 }
