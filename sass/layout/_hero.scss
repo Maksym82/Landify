@@ -1,7 +1,7 @@
 .hero {
+  max-width: 320px;
   padding-top: 120px;
   padding-bottom: 80px;
-  max-width: 320px;
   margin: 0 auto;
   background-image: url("../../images/hero/hero-mobile-bg.png");
   background-repeat: no-repeat;
@@ -10,6 +10,13 @@
   @media (min-width: 375px) {
     max-width: 375px;
     background-size: 375px 1100px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+    padding-top: 160px;
+    background-image: url("../../images/hero/hero-tablet-bg.png");
+    background-size: 768px 1100px;
   }
 }
 
@@ -28,6 +35,10 @@
   @media (min-width: 375px) {
     font-size: 36px;
   }
+
+  @media (min-width: 768px) {
+    font-size: 48px;
+  }
 }
 
 .hero__text {
@@ -36,6 +47,10 @@
   color: $neutral-700;
   letter-spacing: 0.7px;
   margin-bottom: 32px;
+
+  @media (min-width: 768px) {
+    letter-spacing: 0.6px;
+  }
 }
 
 .hero__box-links {

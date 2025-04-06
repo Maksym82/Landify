@@ -10,6 +10,10 @@
     align-items: center;
     justify-content: space-between;
     min-height: 72px;
+
+    @media (min-width: 768px) {
+      min-height: 80px;
+    }
   }
 
   .nav {
@@ -96,6 +100,7 @@
   min-height: 812px;
   transform: translateX(100%);
   transition: transform 300ms linear;
+  background-color: $white;
   background-image: url("../../images/header/mobile-menu-bg.png");
   background-repeat: no-repeat;
   background-position: center;
