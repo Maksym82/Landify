@@ -506,6 +506,11 @@ input {
     width: 688px;
   }
 }
+@media (min-width: 1440px) {
+  .clients__line {
+    width: 1216px;
+  }
+}
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
