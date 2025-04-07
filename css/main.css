@@ -497,7 +497,6 @@ input {
     max-width: 1440px;
   }
 }
-
 .clients__line {
   width: 280px;
   border-top: 1px solid #e5e7eb;
@@ -512,7 +511,6 @@ input {
     width: 688px;
   }
 }
-
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
