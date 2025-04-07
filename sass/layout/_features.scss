@@ -1,0 +1,52 @@
+.features {
+  padding: 48px 0;
+}
+
+.features__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+  text-align: center;
+  color: $neutral-900;
+  margin-bottom: 8px;
+}
+
+.features__description {
+  font-size: 18px;
+  line-height: 1.55556;
+  text-align: center;
+  letter-spacing: 1px;
+  color: $neutral-900;
+  margin-bottom: 48px;
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+// .features__item {
+
+// }
+
+.features__icon {
+  display: block;
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+}
+
+.features__card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33333;
+  text-align: center;
+  color: $neutral-900;
+  margin-bottom: 8px;
+}
+
+.features__text {
+  text-align: center;
+}
