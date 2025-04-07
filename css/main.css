@@ -556,7 +556,6 @@ input {
     padding: 96px 0;
   }
 }
-
 .features__title {
   font-weight: 700;
   font-size: 36px;
@@ -570,7 +569,6 @@ input {
     font-size: 48px;
   }
 }
-
 .features__description {
   font-size: 18px;
   line-height: 1.55556;
@@ -590,7 +588,6 @@ input {
     margin: 0 auto 64px;
   }
 }
-
 .features__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,7 +619,6 @@ input {
             justify-content: center;
   }
 }
-
 .features__item {
   max-width: 335px;
 }
@@ -636,7 +632,6 @@ input {
     width: 384px;
   }
 }
-
 .features__icon {
   display: block;
   margin: 0 auto;
@@ -644,7 +639,6 @@ input {
   height: 32px;
   margin-bottom: 24px;
 }
-
 .features__card-title {
   font-weight: 700;
   font-size: 24px;
@@ -658,7 +652,6 @@ input {
     font-size: 30px;
   }
 }
-
 .features__text {
   text-align: center;
   letter-spacing: 1.3px;
