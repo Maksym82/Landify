@@ -14,160 +14,182 @@
     max-width: 1440px;
     padding: 120px 0 96px;
   }
-}
 
-.achievements::before {
-  content: "";
-  position: absolute;
-  top: 48px;
-  left: 12px;
-  width: 96px;
-  height: 78px;
-  background-image: url("../../images/achievements/big-quotes-mobile.svg");
-  background-repeat: no-repeat;
-
-  @media (min-width: 768px) {
-    top: 64px;
-    left: 20px;
-    width: 142px;
-    height: 116px;
-    background-image: url("../../images/achievements/big-quotes-tablet.svg");
+  &::before {
+    content: "";
+    position: absolute;
+    top: 48px;
+    left: 12px;
+    width: 96px;
+    height: 78px;
+    background-image: url("../../images/achievements/big-quotes-mobile.svg");
+    background-repeat: no-repeat;
+  
+    @media (min-width: 768px) {
+      top: 64px;
+      left: 20px;
+      width: 142px;
+      height: 116px;
+      background-image: url("../../images/achievements/big-quotes-tablet.svg");
+    }
+  
+    @media (min-width: 1440px) {
+      left: 112px;
+    }
   }
 
   @media (min-width: 1440px) {
-    left: 112px;
+    &__container {
+      display: flex;
+    }
   }
-}
 
-@media (min-width: 1440px) {
-  .achievements__container {
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: $neutral-900;
+    margin-bottom: 8px;
+  
+    @media (min-width: 768px) {
+      font-size: 36px;
+      line-height: 1.25;
+      letter-spacing: -0.03em;
+    }
+  
+    @media (min-width: 1440px) {
+      width: 488px;
+      font-size: 48px;
+      margin-left: 104px;
+    }
+  }
+
+  &__description {
+    color: $neutral-900;
+    margin-bottom: 32px;
+  
+    @media (min-width: 768px) {
+      font-size: 18px;
+      line-height: 1.55556;
+      margin-bottom: 40px;
+    }
+  
+    @media (min-width: 1440px) {
+      width: 488px;
+      margin-bottom: 64px;
+      margin-left: 104px;
+    }
+  }
+
+  &__list {
     display: flex;
+    flex-direction: column;
+    gap: 24px;
+  
+    @media (min-width: 1440px) {
+      width: 904px;
+      height: 600px;
+      flex-wrap: wrap;
+      margin-top: 76px;
+      margin-left: -400px;
+    }
   }
-}
 
-.achievements__title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 1.33333;
-  color: $neutral-900;
-  margin-bottom: 8px;
-
-  @media (min-width: 768px) {
-    font-size: 36px;
-    line-height: 1.25;
-    letter-spacing: -0.03em;
+  &__item {
+    max-width: 335px;
+    background-color: $white;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 2px 4px -2px rgba(17, 24, 39, 0.06),
+      0 4px 8px -2px rgba(17, 24, 39, 0.1);
+  
+    @media (min-width: 768px) {
+      max-width: 688px;
+    }
   }
 
   @media (min-width: 1440px) {
-    width: 488px;
-    font-size: 48px;
-    margin-left: 104px;
+    &__item:first-child {
+      width: 488px;
+      height: 312px;
+    }
   }
-}
+  
+  @media (min-width: 1440px) {
+    &__item:nth-child(2) {
+      order: -1;
+      width: 384px;
+      margin-top: 144px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    &__item:nth-child(3) {
+      width: 384px;
+      height: 256px;
+    }
+  }
 
-.achievements__description {
-  color: $neutral-900;
-  margin-bottom: 32px;
+  &__icon {
+    margin-bottom: 32px;
+  }
 
-  @media (min-width: 768px) {
+  &__text {
+    position: relative;
     font-size: 18px;
     line-height: 1.55556;
-    margin-bottom: 40px;
+    color: $neutral-900;
+    padding-left: 32px;
+    margin-bottom: 24px;
+  
+    @media (min-width: 768px) {
+      letter-spacing: 0.5px;
+    }
   }
 
-  @media (min-width: 1440px) {
-    width: 488px;
-    margin-bottom: 64px;
-    margin-left: 104px;
+  &__text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 13px;
+    background-image: url("../../images/achievements/quotes.svg");
+    background-repeat: no-repeat;
   }
-}
 
-.achievements__list {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-
-  @media (min-width: 1440px) {
-    width: 904px;
-    height: 600px;
-    flex-wrap: wrap;
-    margin-top: 76px;
-    margin-left: -400px;
+  &__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.55556;
+    color: $neutral-900;
   }
-}
-
-.achievements__item {
-  max-width: 335px;
-  background-color: $white;
-  border-radius: 8px;
-  padding: 32px;
-  box-shadow: 0 2px 4px -2px rgba(17, 24, 39, 0.06),
-    0 4px 8px -2px rgba(17, 24, 39, 0.1);
-
-  @media (min-width: 768px) {
-    max-width: 688px;
+  
+  &__position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: $neutral-500;
   }
 }
 
-@media (min-width: 1440px) {
-  .achievements__item:first-child {
-    width: 488px;
-    height: 312px;
-  }
-}
 
-@media (min-width: 1440px) {
-  .achievements__item:nth-child(2) {
-    order: -1;
-    width: 384px;
-    margin-top: 144px;
-  }
-}
 
-@media (min-width: 1440px) {
-  .achievements__item:nth-child(3) {
-    width: 384px;
-    height: 256px;
-  }
-}
 
-.achievements__icon {
-  margin-bottom: 32px;
-}
 
-.achievements__text {
-  position: relative;
-  font-size: 18px;
-  line-height: 1.55556;
-  color: $neutral-900;
-  padding-left: 32px;
-  margin-bottom: 24px;
 
-  @media (min-width: 768px) {
-    letter-spacing: 0.5px;
-  }
-}
 
-.achievements__text::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 16px;
-  height: 13px;
-  background-image: url("../../images/achievements/quotes.svg");
-  background-repeat: no-repeat;
-}
 
-.achievements__name {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.55556;
-  color: $neutral-900;
-}
 
-.achievements__position {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.42857;
-  color: $neutral-500;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+

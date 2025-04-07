@@ -681,7 +681,6 @@ input {
     padding: 120px 0 96px;
   }
 }
-
 .achievements::before {
   content: "";
   position: absolute;
@@ -706,7 +705,6 @@ input {
     left: 112px;
   }
 }
-
 @media (min-width: 1440px) {
   .achievements__container {
     display: -webkit-box;
@@ -735,7 +733,6 @@ input {
     margin-left: 104px;
   }
 }
-
 .achievements__description {
   color: #111827;
   margin-bottom: 32px;
@@ -754,7 +751,6 @@ input {
     margin-left: 104px;
   }
 }
-
 .achievements__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -775,7 +771,6 @@ input {
     margin-left: -400px;
   }
 }
-
 .achievements__item {
   max-width: 335px;
   background-color: #fff;
@@ -789,7 +784,6 @@ input {
     max-width: 688px;
   }
 }
-
 @media (min-width: 1440px) {
   .achievements__item:first-child {
     width: 488px;
@@ -814,7 +808,6 @@ input {
 .achievements__icon {
   margin-bottom: 32px;
 }
-
 .achievements__text {
   position: relative;
   font-size: 18px;
@@ -828,7 +821,6 @@ input {
     letter-spacing: 0.5px;
   }
 }
-
 .achievements__text::before {
   content: "";
   position: absolute;
@@ -838,14 +830,12 @@ input {
   background-image: url("../../images/achievements/quotes.svg");
   background-repeat: no-repeat;
 }
-
 .achievements__name {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.55556;
   color: #111827;
 }
-
 .achievements__position {
   font-weight: 400;
   font-size: 14px;
