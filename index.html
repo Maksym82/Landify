@@ -19,7 +19,7 @@
         <nav class="nav">
           <ul class="nav__list">
             <li>
-              <a class="nav__link" href="">Features</a>
+              <a class="nav__link" href="#features">Features</a>
             </li>
             <li>
               <a class="nav__link" href="">Pricing</a>
@@ -68,7 +68,9 @@
           <nav class="mobile">
             <ul class="mobile__list">
               <li class="mobile__item">
-                <a class="mobile__link mobile-header-link" href="">Features</a>
+                <a class="mobile__link mobile-header-link" href="#features"
+                  >Features</a
+                >
               </li>
               <li class="mobile__item">
                 <a class="mobile__link mobile-header-link" href="">Pricing</a>
@@ -173,7 +175,7 @@
       </div>
     </section>
     <!--Features-->
-    <section class="features">
+    <section class="features" id="features">
       <div class="features__container">
         <h2 class="features__title">Tailor-made features</h2>
         <p class="features__description">
@@ -265,8 +267,13 @@
     <!--Achievements-->
     <section class="achievements">
       <div class="achievements__container">
-        <h2 class="achievements__title">Real Stories from Real Customers</h2>
-        <p class="achievements__description">Get inspired by these stories.</p>
+        <div>
+          <h2 class="achievements__title">Real Stories from Real Customers</h2>
+          <p class="achievements__description">
+            Get inspired by these stories.
+          </p>
+        </div>
+
         <ul class="achievements__list">
           <!--Card #1-->
           <li class="achievements__item">
@@ -301,8 +308,14 @@
           </li>
           <!--Card #3-->
           <li class="achievements__item">
-            <img class="achievements__icon" src="./images/achievements/strapi.svg" alt="icon strapi" />
-            <p class="achievements__text">Landify saved our time in designing my company page.</p>
+            <img
+              class="achievements__icon"
+              src="./images/achievements/strapi.svg"
+              alt="icon strapi"
+            />
+            <p class="achievements__text">
+              Landify saved our time in designing my company page.
+            </p>
             <p class="achievements__name">Kristin Watson</p>
             <p class="achievements__position">Co-Founder, Strapi</p>
           </li>
