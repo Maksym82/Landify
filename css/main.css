@@ -346,11 +346,10 @@ input {
   .hero {
     max-width: 1440px;
     padding-top: 152px;
-    background-image: url("../../images/hero/hero-desktop-bg.png");
+    background-image: url("../images/hero/hero-desktop-bg.png");
     background-size: 1440px 866px;
   }
 }
-
 @media (min-width: 1440px) {
   .hero__main-page {
     display: -webkit-box;
@@ -368,7 +367,6 @@ input {
     padding-top: 96px;
   }
 }
-
 .hero__title {
   font-weight: 700;
   font-size: 33px;
@@ -393,7 +391,6 @@ input {
     line-height: 1.2;
   }
 }
-
 .hero__text {
   font-size: 18px;
   line-height: 1.55556;
@@ -406,12 +403,26 @@ input {
     letter-spacing: 0.6px;
   }
 }
-
 .hero__box-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
+}
+.hero__image {
+  display: block;
+  width: 280px;
+  margin: 0 auto;
+}
+@media (min-width: 375px) {
+  .hero__image {
+    width: 320px;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__image {
+    margin-right: 84px;
+  }
 }
 
 .link__start {
@@ -459,22 +470,6 @@ input {
 .link__video:hover, .link__video:focus {
   color: #5f14e0;
   background-color: #ece7fe;
-}
-
-.hero__image {
-  display: block;
-  width: 280px;
-  margin: 0 auto;
-}
-@media (min-width: 375px) {
-  .hero__image {
-    width: 320px;
-  }
-}
-@media (min-width: 1440px) {
-  .hero__image {
-    margin-right: 84px;
-  }
 }
 
 .clients {
