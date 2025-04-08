@@ -1,0 +1,49 @@
+.metrics {
+  padding: 48px 0;
+  max-width: 375px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+    padding: 80px 0;
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 1440px;
+    padding: 91px 0;
+  }
+}
+
+.metrics__title {
+  margin-bottom: 8px;
+}
+
+.metrics__description {
+  color: $neutral-900;
+  margin-bottom: 48px;
+}
+
+.metrics__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.metrics__item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.metrics__box span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: $neutral-900;
+}
+
+.metrics__text {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: $neutral-900;
+}
