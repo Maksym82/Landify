@@ -130,6 +130,25 @@ input {
   }
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.33333;
+  color: #111827;
+}
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 36px;
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+  }
+}
+@media (min-width: 1440px) {
+  .section-title {
+    font-size: 48px;
+  }
+}
+
 .header {
   position: absolute;
   top: 0;
