@@ -879,7 +879,6 @@ input {
     padding: 91px 0;
   }
 }
-
 @media (min-width: 1440px) {
   .metrics__container {
     display: -webkit-box;
@@ -899,7 +898,6 @@ input {
 .metrics__title {
   margin-bottom: 8px;
 }
-
 .metrics__description {
   color: #111827;
   margin-bottom: 48px;
@@ -915,7 +913,6 @@ input {
     margin-bottom: 0;
   }
 }
-
 .metrics__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -945,7 +942,6 @@ input {
     width: 592px;
   }
 }
-
 .metrics__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -965,14 +961,12 @@ input {
     width: 280px;
   }
 }
-
 .metrics__box span {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.33333;
   color: #111827;
 }
-
 .metrics__text {
   font-size: 14px;
   line-height: 1.42857;
