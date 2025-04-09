@@ -19,6 +19,10 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+
+  @media (min-width: 768px) {
+    gap: 48px;
+  }
 }
 
 .projects__title {
@@ -28,6 +32,12 @@
 .projects__description {
   color: $neutral-900;
   margin-bottom: 48px;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.55556;
+    letter-spacing: 0.7px;
+  }
 }
 
 .projects__links-title {
@@ -46,10 +56,25 @@
 .projects__image-box {
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 128px;
+  }
 }
 
 .projects__img {
   margin: 0 auto;
-  width: 304px;
+  width: 280px;
   height: 396px;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects__img:nth-child(2) {
+    margin-top: 139px;
+  }
 }
