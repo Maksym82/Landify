@@ -1103,4 +1103,22 @@ input {
     width: 64px;
     height: 64px;
   }
+}
+
+.projects {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+@media (min-width: 768px) {
+  .projects {
+    max-width: 768px;
+    padding-top: 80px;
+  }
+}
+@media (min-width: 1440px) {
+  .projects {
+    max-width: 1440px;
+    padding-top: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

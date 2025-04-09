@@ -1,0 +1,15 @@
+.projects {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-top: 48px;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+    padding-top: 80px;
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 1440px;
+    padding-top: 0;
+  }
+}
