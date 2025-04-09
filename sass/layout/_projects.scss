@@ -2,6 +2,7 @@
   max-width: 375px;
   margin: 0 auto;
   padding-top: 48px;
+  background-color: $secondary-600;
 
   @media (min-width: 768px) {
     max-width: 768px;
@@ -12,4 +13,43 @@
     max-width: 1440px;
     padding-top: 0;
   }
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.projects__title {
+  margin-bottom: 8px;
+}
+
+.projects__description {
+  color: $neutral-900;
+  margin-bottom: 48px;
+}
+
+.projects__links-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: $neutral-900;
+  margin-bottom: 8px;
+}
+
+.projects__links-box {
+  display: flex;
+  gap: 12px;
+}
+
+.projects__image-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__img {
+  margin: 0 auto;
+  width: 304px;
+  height: 396px;
 }
