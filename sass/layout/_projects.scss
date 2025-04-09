@@ -23,6 +23,17 @@
   @media (min-width: 768px) {
     gap: 48px;
   }
+
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__title-box {
+    padding: 110px 0;
+  }
 }
 
 .projects__title {
@@ -37,6 +48,10 @@
     font-size: 18px;
     line-height: 1.55556;
     letter-spacing: 0.7px;
+  }
+
+  @media (min-width: 1440px) {
+    letter-spacing: 0.8px;
   }
 }
 
@@ -61,6 +76,10 @@
     flex-direction: row;
     gap: 128px;
   }
+
+  @media (min-width: 1440px) {
+    gap: 0;
+  }
 }
 
 .projects__img {
@@ -76,5 +95,11 @@
 @media (min-width: 768px) {
   .projects__img:nth-child(2) {
     margin-top: 139px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__img:nth-child(2) {
+    margin-top: 161px;
   }
 }
