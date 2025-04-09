@@ -1226,4 +1226,22 @@ input {
   .projects__img:nth-child(2) {
     margin-top: 161px;
   }
+}
+
+.footer {
+  max-width: 375px;
+  padding: 40px 0;
+  margin: 0 auto;
+  background-color: #000;
+}
+@media (min-width: 768px) {
+  .footer {
+    max-width: 768px;
+    padding: 64px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .footer {
+    max-width: 1440px;
+  }
 }/*# sourceMappingURL=main.css.map */
