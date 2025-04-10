@@ -1338,7 +1338,7 @@ input {
 
 .scroll-up {
   position: fixed;
-  bottom: 35px;
+  bottom: 28px;
   left: 71%;
   z-index: 25;
   width: 50px;
@@ -1360,14 +1360,19 @@ input {
     left: 77%;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1100px) {
   .scroll-up {
-    left: 85%;
+    left: 72%;
+  }
+}
+@media (min-width: 1350px) {
+  .scroll-up {
+    left: 68%;
   }
 }
 @media (min-width: 1440px) {
   .scroll-up {
-    left: 81%;
+    left: 80%;
   }
 }
 
