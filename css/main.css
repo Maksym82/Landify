@@ -1271,6 +1271,13 @@ input {
 
 .footer__first-link {
   color: #fff;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+.footer__first-link:hover,
+.footer__first-link:focus {
+  color: #7c3aed;
 }
 
 .footer__list {
@@ -1289,6 +1296,13 @@ input {
 
 .footer__link {
   color: #fff;
+  -webkit-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  color: #7c3aed;
 }
 
 .footer__text {

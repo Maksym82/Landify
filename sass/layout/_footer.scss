@@ -32,6 +32,12 @@
 
 .footer__first-link {
   color: $white;
+  transition: color 0.3s linear;
+}
+
+.footer__first-link:hover,
+.footer__first-link:focus {
+  color: $primary-600;
 }
 
 .footer__list {
@@ -45,6 +51,12 @@
 
 .footer__link {
   color: $white;
+  transition: color 0.3s linear;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+  color: $primary-600;
 }
 
 .footer__text {
