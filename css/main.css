@@ -1337,6 +1337,11 @@ input {
           flex-direction: column;
   gap: 16px;
 }
+@media (min-width: 1440px) {
+  .footer__store-box {
+    margin-right: 41px;
+  }
+}
 
 .footer__links-title {
   margin-bottom: 0;
