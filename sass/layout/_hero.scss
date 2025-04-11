@@ -81,13 +81,19 @@
     gap: 16px;
   }
 
-  &__image {
+  &__mobile {
+    position: relative;
     display: block;
-    width: 280px;
+    background-image: url('../../images/hero/mobile-phone.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 280px 560px;
+    height: 560px;
     margin: 0 auto;
   
     @media (min-width: 375px) {
-      width: 320px;
+      background-size: 320px 640px;
+      height: 640px;
     }
   
     @media (min-width: 1440px) {

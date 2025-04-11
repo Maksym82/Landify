@@ -10,25 +10,27 @@
   @media (min-width: 1440px) {
     display: none;
   }
+
+  @media (min-width: 768px) {
+    &__bg {
+      position: relative;
+      width: 232px;
+      height: 464px;
+      background-image: url("../../images/phone/phone.webp");
+      background-repeat: no-repeat;
+      margin: 0 auto;
+    }
+  
+    &__img {
+      position: absolute;
+      top: 5px;
+      left: 15px;
+      border-radius: 15px;
+      z-index: -1;
+    }
+  }
 }
 
-@media (min-width: 768px) {
-  .phone__bg {
-    position: relative;
-    width: 232px;
-    height: 464px;
-    background-image: url("../../images/phone/phone.webp");
-    background-repeat: no-repeat;
-    margin: 0 auto;
-  }
 
-  .phone__img {
-    position: absolute;
-    top: 5px;
-    left: 15px;
-    border-radius: 15px;
-    z-index: -1;
-  }
-}
 
 

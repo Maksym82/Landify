@@ -429,18 +429,24 @@ input {
   display: flex;
   gap: 16px;
 }
-.hero__image {
+.hero__mobile {
+  position: relative;
   display: block;
-  width: 280px;
+  background-image: url("../../images/hero/mobile-phone.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 280px 560px;
+  height: 560px;
   margin: 0 auto;
 }
 @media (min-width: 375px) {
-  .hero__image {
-    width: 320px;
+  .hero__mobile {
+    background-size: 320px 640px;
+    height: 640px;
   }
 }
 @media (min-width: 1440px) {
-  .hero__image {
+  .hero__mobile {
     margin-right: 84px;
   }
 }
@@ -1121,7 +1127,6 @@ input {
     display: none;
   }
 }
-
 @media (min-width: 768px) {
   .phone__bg {
     position: relative;
@@ -1139,6 +1144,7 @@ input {
     z-index: -1;
   }
 }
+
 .projects {
   max-width: 375px;
   margin: 0 auto;
