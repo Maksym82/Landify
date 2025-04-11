@@ -1226,6 +1226,7 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 40px;
 }
 @media (min-width: 768px) {
   .projects__image-box {
@@ -1238,17 +1239,22 @@ input {
 }
 @media (min-width: 1440px) {
   .projects__image-box {
-    gap: 0;
+    gap: 32px;
   }
 }
 
 .projects__bg-first {
   position: relative;
   width: 231px;
-  height: 464px;
+  height: 385px;
   background-image: url("../../images/projects/projects-bg-1.webp");
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .projects__bg-first {
+    margin: 0 0 0 48px;
+  }
 }
 
 .projects__phone-img1 {
@@ -1267,6 +1273,11 @@ input {
   background-image: url("../../images/projects/projects-bg-2.webp");
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .projects__bg-second {
+    margin: 174px 48px 0 0;
+  }
 }
 
 .projects__phone-img2 {

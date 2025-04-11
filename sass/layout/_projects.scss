@@ -70,6 +70,7 @@
   &__image-box {
     display: flex;
     flex-direction: column;
+    gap: 40px;
 
     @media (min-width: 768px) {
       flex-direction: row;
@@ -77,7 +78,7 @@
     }
 
     @media (min-width: 1440px) {
-      gap: 0;
+      gap: 32px;
     }
   }
 }
@@ -85,10 +86,14 @@
 .projects__bg-first {
   position: relative;
   width: 231px;
-  height: 464px;
+  height: 385px;
   background-image: url("../../images/projects/projects-bg-1.webp");
   background-repeat: no-repeat;
   margin: 0 auto;
+
+  @media (min-width: 768px) {
+    margin: 0 0 0 48px;
+  }
 }
 
 .projects__phone-img1 {
@@ -107,6 +112,10 @@
   background-image: url("../../images/projects/projects-bg-2.webp");
   background-repeat: no-repeat;
   margin: 0 auto;
+
+  @media (min-width: 768px) {
+    margin: 174px 48px 0 0;
+  }
 }
 
 .projects__phone-img2 {
