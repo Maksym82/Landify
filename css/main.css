@@ -1242,7 +1242,6 @@ input {
     gap: 32px;
   }
 }
-
 .projects__bg-first {
   position: relative;
   width: 231px;
@@ -1256,7 +1255,6 @@ input {
     margin: 0 0 0 48px;
   }
 }
-
 .projects__phone-img1 {
   position: absolute;
   width: 202px;
@@ -1265,7 +1263,6 @@ input {
   border-radius: 0 0 15px 15px;
   z-index: 0;
 }
-
 .projects__bg-second {
   position: relative;
   width: 232px;
@@ -1279,7 +1276,6 @@ input {
     margin: 174px 48px 0 0;
   }
 }
-
 .projects__phone-img2 {
   position: absolute;
   width: 202px;
