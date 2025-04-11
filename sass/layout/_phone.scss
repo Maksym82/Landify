@@ -1,0 +1,20 @@
+.phone {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.phone__bg {
+  position: relative;
+  width: 232px;
+  height: 464px;
+  background-image: url("../../images/phone/phone.webp");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.phone__img {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  z-index: -1;
+}
