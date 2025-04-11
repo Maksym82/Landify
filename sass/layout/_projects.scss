@@ -18,11 +18,11 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-  
+
     @media (min-width: 768px) {
       gap: 48px;
     }
-  
+
     @media (min-width: 1440px) {
       flex-direction: row;
       gap: 32px;
@@ -34,7 +34,7 @@
       padding: 110px 0;
     }
   }
-  
+
   &__title {
     margin-bottom: 8px;
   }
@@ -42,13 +42,13 @@
   &__description {
     color: $neutral-900;
     margin-bottom: 48px;
-  
+
     @media (min-width: 768px) {
       font-size: 18px;
       line-height: 1.55556;
       letter-spacing: 0.7px;
     }
-  
+
     @media (min-width: 1440px) {
       letter-spacing: 0.8px;
     }
@@ -61,7 +61,7 @@
     color: $neutral-900;
     margin-bottom: 8px;
   }
-  
+
   &__links-box {
     display: flex;
     gap: 12px;
@@ -70,49 +70,50 @@
   &__image-box {
     display: flex;
     flex-direction: column;
-  
+
     @media (min-width: 768px) {
       flex-direction: row;
       gap: 128px;
     }
-  
+
     @media (min-width: 1440px) {
       gap: 0;
     }
   }
-
-  &__img {
-    margin: 0 auto;
-    width: 280px;
-    height: 396px;
-  
-    @media (min-width: 768px) {
-      margin: 0;
-    }
-  }
-
-  @media (min-width: 768px) {
-    &__img:nth-child(2) {
-      margin-top: 139px;
-    }
-  }
-  
-  @media (min-width: 1440px) {
-    &__img:nth-child(2) {
-      margin-top: 161px;
-    }
-  }
-  
 }
 
+.projects__bg-first {
+  position: relative;
+  width: 231px;
+  height: 464px;
+  background-image: url("../../images/projects/projects-bg-1.webp");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
 
+.projects__phone-img1 {
+  position: absolute;
+  width: 202px;
+  top: 0;
+  left: 15px;
+  border-radius: 0 0 15px 15px;
+  z-index: 0;
+}
 
+.projects__bg-second {
+  position: relative;
+  width: 232px;
+  height: 382px;
+  background-image: url("../../images/projects/projects-bg-2.webp");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
+.projects__phone-img2 {
+  position: absolute;
+  width: 202px;
+  top: 14px;
+  left: 15px;
+  border-radius: 15px 15px  0 0 ;
+  z-index: 0;
+}

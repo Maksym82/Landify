@@ -1241,25 +1241,41 @@ input {
     gap: 0;
   }
 }
-.projects__img {
+
+.projects__bg-first {
+  position: relative;
+  width: 231px;
+  height: 464px;
+  background-image: url("../../images/projects/projects-bg-1.webp");
+  background-repeat: no-repeat;
   margin: 0 auto;
-  width: 280px;
-  height: 396px;
 }
-@media (min-width: 768px) {
-  .projects__img {
-    margin: 0;
-  }
+
+.projects__phone-img1 {
+  position: absolute;
+  width: 202px;
+  top: 0;
+  left: 15px;
+  border-radius: 0 0 15px 15px;
+  z-index: 0;
 }
-@media (min-width: 768px) {
-  .projects__img:nth-child(2) {
-    margin-top: 139px;
-  }
+
+.projects__bg-second {
+  position: relative;
+  width: 232px;
+  height: 382px;
+  background-image: url("../../images/projects/projects-bg-2.webp");
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
-@media (min-width: 1440px) {
-  .projects__img:nth-child(2) {
-    margin-top: 161px;
-  }
+
+.projects__phone-img2 {
+  position: absolute;
+  width: 202px;
+  top: 14px;
+  left: 15px;
+  border-radius: 15px 15px 0 0;
+  z-index: 0;
 }
 
 .footer {
