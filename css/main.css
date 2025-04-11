@@ -465,7 +465,7 @@ input {
   z-index: 1;
   -webkit-clip-path: polygon(3% 0, 97% 0, 100% 3%, 100% 95%, 98% 100%, 3% 100%, 0 98%, 0 4%);
           clip-path: polygon(3% 0, 97% 0, 100% 3%, 100% 95%, 98% 100%, 3% 100%, 0 98%, 0 4%);
-  background-image: url("../../images/hero/hero-mobile-animation.webp");
+  background-image: url("../images/hero/hero-mobile-animation.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
