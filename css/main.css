@@ -789,6 +789,22 @@ input {
     display: flex;
   }
 }
+.achievements .achievements__title-box {
+  margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .achievements .achievements__title-box {
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .achievements .achievements__title-box {
+    width: 488px;
+    height: 156px;
+    margin-left: 104px;
+    margin-bottom: 0;
+  }
+}
 .achievements__title {
   font-weight: 700;
   font-size: 30px;
@@ -807,25 +823,15 @@ input {
   .achievements__title {
     width: 488px;
     font-size: 48px;
-    margin-left: 104px;
   }
 }
 .achievements__description {
   color: #111827;
-  margin-bottom: 32px;
 }
 @media (min-width: 768px) {
   .achievements__description {
     font-size: 18px;
     line-height: 1.55556;
-    margin-bottom: 40px;
-  }
-}
-@media (min-width: 1440px) {
-  .achievements__description {
-    width: 488px;
-    margin-bottom: 64px;
-    margin-left: 104px;
   }
 }
 .achievements__list {
@@ -1183,7 +1189,7 @@ input {
     position: relative;
     width: 232px;
     height: 464px;
-    background-image: url("../../images/phone/phone.webp");
+    background-image: url("../images/phone/phone.webp");
     background-repeat: no-repeat;
     margin: 0 auto;
   }
