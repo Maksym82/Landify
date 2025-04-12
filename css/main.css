@@ -789,16 +789,16 @@ input {
     display: flex;
   }
 }
-.achievements .achievements__title-box {
+.achievements__title-box {
   margin-bottom: 32px;
 }
 @media (min-width: 768px) {
-  .achievements .achievements__title-box {
+  .achievements__title-box {
     margin-bottom: 40px;
   }
 }
 @media (min-width: 1440px) {
-  .achievements .achievements__title-box {
+  .achievements__title-box {
     width: 488px;
     height: 156px;
     margin-left: 104px;
