@@ -472,8 +472,8 @@ input {
   background-position-y: -45px;
   -webkit-animation-name: heroAnimation;
           animation-name: heroAnimation;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
   -webkit-animation-iteration-count: infinite;
