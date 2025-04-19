@@ -15,26 +15,30 @@
     padding: 120px 0 96px;
   }
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 48px;
-    left: 12px;
-    width: 96px;
-    height: 78px;
-    background-image: url("../images/achievements/big-quotes-mobile.svg");
-    background-repeat: no-repeat;
+  .achievements__container {
+    position: relative;
 
-    @media (min-width: 768px) {
-      top: 64px;
-      left: 20px;
-      width: 142px;
-      height: 116px;
-      background-image: url("../images/achievements/big-quotes-tablet.svg");
-    }
-
-    @media (min-width: 1440px) {
-      left: 112px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: -30px;
+      left: 12px;
+      width: 96px;
+      height: 78px;
+      background-image: url("../images/achievements/big-quotes-mobile.svg");
+      background-repeat: no-repeat;
+  
+      @media (min-width: 768px) {
+        top: -60px;
+        left: 20px;
+        width: 142px;
+        height: 116px;
+        background-image: url("../images/achievements/big-quotes-tablet.svg");
+      }
+  
+      @media (min-width: 1440px) {
+        left: 112px;
+      }
     }
   }
 
@@ -42,6 +46,8 @@
     &__container {
       display: flex;
     }
+
+
   }
 
   &__title-box {

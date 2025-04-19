@@ -758,10 +758,13 @@ input {
     padding: 120px 0 96px;
   }
 }
-.achievements::before {
+.achievements .achievements__container {
+  position: relative;
+}
+.achievements .achievements__container::before {
   content: "";
   position: absolute;
-  top: 48px;
+  top: -30px;
   left: 12px;
   width: 96px;
   height: 78px;
@@ -769,8 +772,8 @@ input {
   background-repeat: no-repeat;
 }
 @media (min-width: 768px) {
-  .achievements::before {
-    top: 64px;
+  .achievements .achievements__container::before {
+    top: -60px;
     left: 20px;
     width: 142px;
     height: 116px;
@@ -778,7 +781,7 @@ input {
   }
 }
 @media (min-width: 1440px) {
-  .achievements::before {
+  .achievements .achievements__container::before {
     left: 112px;
   }
 }
