@@ -260,7 +260,7 @@ input {
   transition: transform 300ms linear;
   transition: transform 300ms linear, -webkit-transform 300ms linear;
   background-color: #fff;
-  background-image: url("../images/header/mobile-menu-bg.png");
+  background-image: url("../images/header/mobile-menu-bg.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto auto;
